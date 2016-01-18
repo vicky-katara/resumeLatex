@@ -1,0 +1,203 @@
+%%% LaTeX Template: Designer's CV
+%%%
+%%% Source: http://www.howtotex.com/
+%%% Feel free to distribute this template, but please keep the referal to HowToTeX.com.
+%%% Date: March 2012
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document properties and packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,final]{memoir}
+
+% misc
+\renewcommand{\familydefault}{bch}	% font
+\pagestyle{empty}					% no pagenumbering
+\setlength{\parindent}{0pt}			% no paragraph indentation
+
+
+% required packages (add your own)
+\usepackage{flowfram}										% column layout
+\usepackage[top=1cm,left=0.2cm,right=1cm,bottom=0.8cm]{geometry}% margins
+\usepackage{graphicx}
+\usepackage{epstopdf} 									% figures
+\usepackage{url}											% URLs
+\usepackage[usenames,dvipsnames]{xcolor}					% color
+\usepackage{multicol}										% columns env.
+	\setlength{\multicolsep}{1pt}
+\usepackage{paralist}										% compact lists
+\usepackage{tikz}
+\usepackage{textcomp}
+
+%\usepackage{anyfontsize}
+\usepackage[hidelinks]{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define length commands
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+% frame setup (flowfram package)
+% left frame
+\newflowframe{0.265\textwidth}{\textheight}{0pt}{0pt}[left]
+	\newlength{\LeftMainSep}
+	\setlength{\LeftMainSep}{0.2\textwidth}
+	\addtolength{\LeftMainSep}{4\columnsep}
+
+% right frame
+\newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
+
+% horizontal rule between frames (using TikZ)
+\renewcommand{\ffvrule}[3]{%
+\hfill
+\tikz{\draw[loosely dotted,color=Plum,line width=1.5pt,yshift=-#1](0, 0) -- (0pt,#3);}
+\hfill\mbox{}}
+\insertvrule{flow}{1}{flow}{2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Sep}{\vspace{1.5em}}
+\newcommand{\SmallSep}{\vspace{0.5em}}
+
+\newenvironment{Objective}
+	{\ignorespaces\textbf{\color{Plum} Objective}}
+	{\Sep\ignorespacesafterend}
+	
+\newcommand{\CVSection}[1]
+	{\Large\textbf{#1}\par
+	\SmallSep\normalsize\normalfont}
+
+\newcommand{\CVItem}[1]
+	{\textbf{\color{Plum} #1}}
+
+%\urlstyle{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Left frame
+%%%%%%%%%%%%%%%%%%%%
+%\begin{figure} 
+%	\hfill
+%	\includegraphics[width=0.8\columnwidth]{kkk}
+%	\vspace{-5cm}
+%\end{figure}
+
+\begin{flushright} 
+	\footnotesize
+	\SmallSep
+	{\bfseries{\color{Plum}{Address}}}\\
+	
+	Flat No.8, Katara Mansion\\
+	Dr. Annie Besant Rd., Worli\\
+	Mumbai - 400018, India\\
+	\Sep
+	{\bfseries{\color{Plum}{EMail}}}\\
+	\href{mailto:vicky.p.katara@gmail.com}{vicky.p.katara@gmail.com}\\
+	\Sep
+	{\bfseries{\color{Plum}{Cellphone}}}\\
+	\href{tel:+919867728292}{+91 986 772 8292}\\
+	\Sep
+		{\bfseries{\color{Plum}{Website}}}\\
+	\href{http://vickykatara.orgfree.com/}{vickykatara.orgfree.com}\\
+\end{flushright}\normalsize
+%\begin{figure}
+	%\hfill
+	%\vspace{-0.3cm}
+	\hspace{0.5cm}
+	\vspace{-0.35cm}
+	%\bfseries{\color{Plum}{Contact Information}}\\\\
+	\vspace{-0.1cm}
+	\hspace{-0.4cm}
+	%\includegraphics[width=0.8\columnwidth]{qrcode_2.eps}
+%\end{figure}
+\framebreak
+
+% Right frame
+%%%%%%%%%%%%%%%%%%%%
+
+% Projects - Start
+\CVSection{Projects (continued)}
+%Project-1 Start
+\CVItem{Enterprise Data Integration, Visualization Software Client}\SmallSep\\
+\begin{minipage}{13cm}
+	\begin{compactitem}[\color{Plum}$\circ$]
+		{\footnotesize
+			\item \emph{Technical Environment:} Informatica PowerCenter and Oracle PL/SQL and Integrated Web Services
+			\item \emph{Industry:} Technology / Software
+			\item \emph{Role:} Enterprise wide Data Integration System Developer, Deployment co-ordinate
+			\item \emph{Team Size:} 31
+			\item \emph{Description:} As part of this project I designed and built mappings using Informatica PowerCenter. I was also responsible to reverse engineer some interfaces and Informatica Workflows.
+		}
+	\end{compactitem}
+\end{minipage}
+\SmallSep\\
+
+\CVItem{Design, Development and Deployment of Personal Website}\SmallSep\\
+\begin{minipage}{13cm}
+	\begin{compactitem}[\color{Plum}$\circ$]
+		{\footnotesize
+			\item \emph{Technical Environment:} HTML / JavaScript / CSS / Wordpress
+			\item \emph{Description:} This was a personal project where I designed and developed a personal website which I then deployed at \emph{\href{http://vickykatara.orgfree.com/}{vickykatara.orgfree.com}.} I also added content to the website under the three different categories of Technology, Football and Cars \& Planes.
+		}
+	\end{compactitem}
+\end{minipage}
+\SmallSep\\
+
+\CVItem{Analysis of Atomicity for Multithreaded Programs, B.E. Research Project}\SmallSep\\
+\begin{minipage}{13cm}
+	\begin{compactitem}[\color{Plum}$\circ$]
+		{\footnotesize
+			\item \emph{Technical Environment:} Java\texttrademark , Swing
+			\item \emph{Team Size:} 3
+			\item \emph{Description:} This was my final year research project. Through this project we described two algorithms for runtime detection of atomicity(serializability) violations and compared their cost and effectiveness. Experiments showed that both algorithms were effective in finding atomicity violations. One of the algorithms was more accurate, but had a large overhead. The other algorithm was considerably more manageable at the cost of accuracy.
+			
+			As part of the project, we had to prepare a thesis and present our findings to panels of experts on three different occasions.
+		}
+	\end{compactitem}
+\end{minipage}
+\SmallSep\\
+
+\CVItem{Automation System - Design and Development}\SmallSep\\
+\begin{minipage}{13cm}
+	\begin{compactitem}[\color{Plum}$\circ$]
+		{\footnotesize
+			\item \emph{Technical Environment:} Java\texttrademark, Microsoft\textcopyright Excel, jXL /*plugin*/ for Java
+			\item \emph{Industry:} Telecom
+			\item \emph{Role:} Java Developer, Tester and Deployer
+			\item \emph{Team Size:} 1
+			\item \emph{Description:} This was a freelance project that I had taken up during my undergraduate studies. I automated a cumbersome manual process involving integration of data from disparate sources including multiple Microsoft\textcopyright Excel workbooks and a HTTP Web Service by building an application running in the Java\texttrademark environment.
+		}
+	\end{compactitem}
+\end{minipage}
+\SmallSep\\
+
+\CVItem{Development of Mini-Tennis Game}\SmallSep\\
+\begin{minipage}{13cm}
+	\begin{compactitem}[\color{Plum}$\circ$]
+		{\footnotesize
+			\item \emph{Technical Environment:} GCC(along with built in graphics libraries)
+			\item \emph{Team Size:} 2
+			\item \emph{Description:} This was a mini-project as part of the subject of `Computer Graphics' in the 2nd year of Engineering. The project was built completely using the \emph{`graphics.l'} library of GCC. This game was built in a retro style and ended up being similar to the paddle based tennis game found on the SuperNintendo gaming console from the 1990s.
+		}
+	\end{compactitem}
+\end{minipage}
+\Sep\\
+
+\CVSection{Skills}
+\CVItem{Programming Languages}\\
+{\footnotesize C/C++, Java, PL/SQL, HTML, CSS, JavaScript, VisualBasic}
+\SmallSep\\
+\CVItem{Operating Systems}\\
+{\footnotesize Microsoft Windows(98/XP/7/8), Linux, Android, Mac OS X}
+\SmallSep\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
