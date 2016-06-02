@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.13)  26 APR 2016 03:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.13)  1 JUN 2016 19:55
 entering extended mode
 **vicky1.tex
 ("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.tex"
@@ -1275,10 +1275,10 @@ Overfull \hbox (6.27028pt too wide) in paragraph at lines 148--151
 LaTeX Font Info:    Font shape `OT1/bch/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/bch/b/sc' tried instead on input line 181.
 Package epstopdf Info: Source file: <qrcode_2.eps>
-(epstopdf)                    date: 2015-08-14 02:55:35
+(epstopdf)                    date: 2015-08-13 23:55:35
 (epstopdf)                    size: 160051 bytes
 (epstopdf)             Output file: <qrcode_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-14 02:56:16
+(epstopdf)                    date: 2015-08-13 23:56:16
 (epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <epstopdf --outfile=qrcode_2-eps-converted-to.p
 df qrcode_2.eps>
@@ -1309,50 +1309,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--187
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 191.
 LaTeX Font Info:    Font shape `OT1/bch/bx/sc' in size <24.88> not available
-(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 192.
+(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 191.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 196.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 195.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <8> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 237.
-
-Overfull \hbox (6.54868pt too wide) in paragraph at lines 228--264
-\OT1/bch/m/n/10 Developed a P2P Video Streaming Application. Source at: [][]  \
-OT1/cmtt/m/n/10 vicky-katara/IP[]Video[]P2P[] 
- []
-
-
-Overfull \hbox (18.48845pt too wide) in paragraph at lines 228--264
-\OT1/bch/m/n/10 Researched into algorithms for testing atomicity(serializabilit
-y) of multi-threaded programs.
- []
-
-
-Overfull \hbox (2.52527pt too wide) in paragraph at lines 228--264
-\OT1/bch/m/n/10 publish them onto an Auditing and Testing platform. The tool is
- currently being patented
- []
-
-[1
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 242.
+ [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Vicky Katara/Des
 ktop/MS/Resume/New Resume - One Page/qrcode_2-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
 
 ("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
 Package rerunfilecheck Info: File `vicky1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
- 21973 strings out of 493921
- 386949 string characters out of 3144855
- 520308 words of memory out of 3000000
- 24891 multiletter control sequences out of 15000+200000
+ 21972 strings out of 493921
+ 386931 string characters out of 3144855
+ 520309 words of memory out of 3000000
+ 24890 multiletter control sequences out of 15000+200000
  37391 words of font info for 71 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  60i,16n,54p,475b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1361,9 +1343,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vicky1.pdf (1 page, 91526 bytes).
+Output written on vicky1.pdf (1 page, 91299 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
