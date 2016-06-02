@@ -64,7 +64,7 @@
 
 %\renewcommand{\ffvrule}[3]{%
 %	\hfill
-%	\tikz{\draw[loosely dotted,color=Plum,line width=1.5pt,yshift=0](0,0) -- (0,0);}
+%	\tikz{\draw[loosely dotted,color=Black,line width=1.5pt,yshift=0](0,0) -- (0,0);}
 %	\hfill\mbox{}}
 %\insertvrule{flow}{1}{flow}{2}
 
@@ -74,7 +74,7 @@
 % horizontal rule between frames (using TikZ)
 \renewcommand{\ffvrule}[3]{%
 \hfill
-\tikz{\draw[loosely dotted,color=Plum,line width=1.5pt,yshift=-#1](0,0) -- (0,#3);}
+\tikz{\draw[loosely dotted,color=Black,line width=1.5pt,yshift=-#1](0,0) -- (0,#3);}
 \hfill\mbox{}}
 \insertvrule{flow}{1}{flow}{2}
 
@@ -85,7 +85,7 @@
 \newcommand{\SmallSep}{\vspace{0.5em}}
 
 \newenvironment{Objective}
-	{\ignorespaces\textbf{\color{Plum} Objective}}
+	{\ignorespaces\textbf{\color{Black} Objective}}
 	{\Sep\ignorespacesafterend}
 	
 \newcommand{\CVSection}[1]
@@ -93,10 +93,10 @@
 	\SmallSep\normalsize\normalfont}
 
 \newcommand{\CVItem}[1]
-	{\textsc{\color{Plum} #1}}
+	{\textsc{\color{Black} #1}}
 
 \newcommand{\CVItemSC}[1]
-{{\textsc{\color{Plum} #1}}}
+{{\textsc{\color{Black} #1}}}
 
 \newcommand{\placetextbox}[3]{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
 	\setbox0=\hbox{#3}% Put <stuff> in a box
@@ -109,7 +109,7 @@
 {\space\space\fbox{\tiny \textbf{{#1}}}}
 
 \newcommand{\RightAlignedInlineText}[1]
-{{\footnotesize \color{Plum}  \hfill [#1]}}
+{{\footnotesize \color{Black}  \hfill [#1]}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Begin document
@@ -127,25 +127,25 @@
 \begin{flushright} 
 	\footnotesize
 	\SmallSep
-	\CVItemSC{Address}\\%{\bfseries{\color{Plum}{Address}}}\\
+	\CVItemSC{Address}\\%{\bfseries{\color{Black}{Address}}}\\
 	
 	2500, Avent Ferry Rd.\\
 	Apartment No. 205\\
 	Raleigh, NC - 27606\\
 	\Sep
-	\CVItemSC{E-Mail}\\%{\bfseries{\color{Plum}{E-Mail}}}\\
+	\CVItemSC{E-Mail}\\%{\bfseries{\color{Black}{E-Mail}}}\\
 	\href{mailto:vicky.p.katara@gmail.com}{\texttt{vicky.p.katara@gmail.com}}\\
 	\Sep
-	\CVItemSC{Mobile}\\%{\bfseries{\color{Plum}{Cellphone}}}\\
+	\CVItemSC{Mobile}\\%{\bfseries{\color{Black}{Cellphone}}}\\
 	\href{tel:+19842158067}{+1 984 215 8067}\\
 	\SmallSep
-		%{\bfseries{\color{Plum}{Website}}}\\
+		%{\bfseries{\color{Black}{Website}}}\\
 	%\href{http://vickykatara.orgfree.com/}{vickykatara.orgfree.com}\\
 	\Sep
-	\CVItemSC{GitHub Repo}\\%{\bfseries{\color{Plum}{Cellphone}}}\\
+	\CVItemSC{GitHub Repo}\\%{\bfseries{\color{Black}{Cellphone}}}\\
 	\href{https://github.com/vicky-katara}{\texttt{github.com/vicky-katara}}\\
 	\SmallSep
-		\tikz{\draw[loosely dotted,color=Plum,line width=1.5pt](6.2,0) -- (1,0);}
+		\tikz{\draw[loosely dotted,color=Black,line width=1.5pt](6.2,0) -- (1,0);}
 %\end{flushright}\normalsize	
 \SmallSep
 \CVSection{Skills}
@@ -171,14 +171,14 @@
 %\SmallSep\\
 %\Sep\\
 \end{flushright}\normalsize
-\tikz{\draw[loosely dotted,color=Plum,line width=1.5pt](6.2,0) -- (1,0);}
+\tikz{\draw[loosely dotted,color=Black,line width=1.5pt](6.2,0) -- (1,0);}
 \SmallSep
 %\begin{figure}
 	%\hfill
 	%\vspace{-0.3cm}
 	\hspace{0.7cm}
 		\vspace{-0.35cm}
-	\textsc{\bfseries{\color{Plum}{Save My Contact}}}\\\\
+	\textsc{\bfseries{\color{Black}{Save My Contact}}}\\\\
 	\vspace{+0.45cm}
 	%\hspace{-0.4cm}
 	\includegraphics[width=0.8\columnwidth]{qrcode_2.eps}
@@ -188,8 +188,8 @@
 % Right frame
 %%%%%%%%%%%%%%%%%%%%
 %\rhead{Last Updated: Jan 16, 2016}
-\placetextbox{0.90}{0.995}{\color{Plum}\tiny{Last Updated: Jan 31, 2016}}%
-\Huge\bfseries \textsc{\color{Plum} Vicky Katara} 
+\placetextbox{0.90}{0.995}{\color{Black}\tiny{Last Updated: Jan 31, 2016}}%
+\Huge\bfseries \textsc{\color{Black} Vicky Katara} 
 %\Large\bfseries  Graduate Computer Science Student 
 \SmallSep
 
@@ -226,25 +226,25 @@ Business Intelligence - Data Warehousing\\
 \CVSection{Relevant Projects}
 %Project-new1 Start
 \CVItem{Conformance Suite for Mozilla Servo} \RightAlignedInlineText{Sept-Dec 2015}\\
-{\footnotesize Open Source project to develop a conformance suite for Mozilla's next generation browser. Source at: \color{Plum} \href{https://github.com/vicky-katara/unicode-bidi}{\space\space\texttt{vicky-katara/unicode-bidi}} \\\color{Black}
+{\footnotesize Open Source project to develop a conformance suite for Mozilla's next generation browser. Source at: \color{Black} \href{https://github.com/vicky-katara/unicode-bidi}{\space\space\texttt{vicky-katara/unicode-bidi}} \\\color{Black}
 	\emph{Technologies Used:} Python, Rust}%Project-4 End
 \SmallSep\\
 %Project-new1 Start
 \CVItem{Peer to Peer Video Streaming System} \RightAlignedInlineText{Oct-Dec 2015}\\
-{\footnotesize Developed a P2P Video Streaming Application. Source at: \color{Plum} \href{https://github.com/vicky-katara/IP_Video_P2P.git}{\space\space\texttt{vicky-katara/IP\_Video\_P2P}} \\\color{Black}
+{\footnotesize Developed a P2P Video Streaming Application. Source at: \color{Black} \href{https://github.com/vicky-katara/IP_Video_P2P.git}{\space\space\texttt{vicky-katara/IP\_Video\_P2P}} \\\color{Black}
 	\emph{Technologies Used:} Java, Eclipse, testing on a VirtualBox swarm}%Project-4 End
 \SmallSep\\
 \CVItem{Java File Encryptor} \plumBox{Side Project} \RightAlignedInlineText{Jan 2015}\\
-{\footnotesize My attempt at Building a File Encryption Tool in Java. The GUI is in Swing. It uses PBE with MD5 and DES for encryption. Source at: \color{Plum} \href{https://github.com/vicky-katara/FileEncryptor.git}{\space\space\texttt{vicky-katara/FileEncryptor}} \\\color{Black}
+{\footnotesize My attempt at Building a File Encryption Tool in Java. The GUI is in Swing. It uses PBE with MD5 and DES for encryption. Source at: \color{Black} \href{https://github.com/vicky-katara/FileEncryptor.git}{\space\space\texttt{vicky-katara/FileEncryptor}} \\\color{Black}
 	\emph{Technologies Used:} Java, Swing, NetBeans}%Project-4 End
 \SmallSep\\
 %Project-new1 Start
 \CVItem{Library Management System}\RightAlignedInlineText{Sept-Oct 2015}\\
-{\footnotesize Modeled and developed a Library Management System as a Web Application. \\Application available at: \color{Plum} \href{https://calm-coast-3120.herokuapp.com/}{\space\space\texttt{calm-coast-3120.herokuapp.com}} \\\color{Black}
+{\footnotesize Modeled and developed a Library Management System as a Web Application. \\Application available at: \color{Black} \href{https://calm-coast-3120.herokuapp.com/}{\space\space\texttt{calm-coast-3120.herokuapp.com}} \\\color{Black}
 	\emph{Technologies Used:} Ruby on Rails, CSS, JavaScript, Heroku}%Project-4 End
 \SmallSep\\
 \CVItem{GRE Word Test tool}\plumBox{Side Project} \RightAlignedInlineText{Sep 20, 2015}\\
-{\footnotesize Application available at: \color{Plum} \href{http://www4.ncsu.edu/~vpkatara/GRE800/}{\space\space\url{www4.ncsu.edu/ ~vpkatara/GRE800/}} \\\color{Black}
+{\footnotesize Application available at: \color{Black} \href{http://www4.ncsu.edu/~vpkatara/GRE800/}{\space\space\url{www4.ncsu.edu/ ~vpkatara/GRE800/}} \\\color{Black}
 	\emph{Technologies Used:} JavaScript, HTML, CSS}%Project-4 End
 \SmallSep\\
 %Project-4 Start

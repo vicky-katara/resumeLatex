@@ -1,7 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.13)  26 APR 2016 03:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.13)  2 FEB 2016 22:41
 entering extended mode
 **vicky1.tex
-("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.tex"
+("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page - BW\vicky1.tex
+"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1165,7 +1166,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.aux")
+("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page - BW\vicky1.aux
+")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
 LaTeX Font Info:    ... okay on input line 117.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
@@ -1181,8 +1183,7 @@ LaTeX Font Info:    ... okay on input line 117.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 117.
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 117.
@@ -1260,8 +1261,10 @@ LaTeX Info: Redefining \nameref on input line 117.
 LaTeX Info: Redefining \ref on input line 117.
 LaTeX Info: Redefining \pageref on input line 117.
 LaTeX Info: Redefining \nameref on input line 117.
-("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.out")
-("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.out")
+("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page - BW\vicky1.out
+")
+("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page - BW\vicky1.out
+")
 \@outlinefile=\write5
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/bch/b/n' tried instead on input line 151.
@@ -1275,10 +1278,10 @@ Overfull \hbox (6.27028pt too wide) in paragraph at lines 148--151
 LaTeX Font Info:    Font shape `OT1/bch/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/bch/b/sc' tried instead on input line 181.
 Package epstopdf Info: Source file: <qrcode_2.eps>
-(epstopdf)                    date: 2015-08-14 02:55:35
+(epstopdf)                    date: 2015-08-14 01:55:35
 (epstopdf)                    size: 160051 bytes
 (epstopdf)             Output file: <qrcode_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-14 02:56:16
+(epstopdf)                    date: 2015-08-14 01:56:16
 (epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <epstopdf --outfile=qrcode_2-eps-converted-to.p
 df qrcode_2.eps>
@@ -1337,11 +1340,12 @@ Overfull \hbox (2.52527pt too wide) in paragraph at lines 228--264
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Vicky Katara/Des
-ktop/MS/Resume/New Resume - One Page/qrcode_2-eps-converted-to.pdf>]
+ktop/MS/Resume/New Resume - One Page - BW/qrcode_2-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
 
-("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.aux")
+("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page - BW\vicky1.aux
+")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `vicky1.out' has not changed.
@@ -1350,8 +1354,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
  21973 strings out of 493921
- 386949 string characters out of 3144855
- 520308 words of memory out of 3000000
+ 387004 string characters out of 3144855
+ 520310 words of memory out of 3000000
  24891 multiletter control sequences out of 15000+200000
  37391 words of font info for 71 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1361,7 +1365,7 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vicky1.pdf (1 page, 91526 bytes).
+Output written on vicky1.pdf (1 page, 91522 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
