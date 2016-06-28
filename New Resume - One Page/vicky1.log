@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.13)  27 JUN 2016 20:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.13)  27 JUN 2016 22:35
 entering extended mode
 **vicky1.tex
 ("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.tex"
@@ -1264,16 +1264,16 @@ LaTeX Info: Redefining \nameref on input line 117.
 ("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.out")
 \@outlinefile=\write5
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 151.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 154.
 LaTeX Font Info:    Font shape `OT1/bch/bx/sc' in size <17.28> not available
-(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 151.
+(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 154.
 
-Overfull \hbox (6.27028pt too wide) in paragraph at lines 148--151
+Overfull \hbox (6.27028pt too wide) in paragraph at lines 151--154
  [][]
  []
 
 LaTeX Font Info:    Font shape `OT1/bch/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 181.
+(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 184.
 Package epstopdf Info: Source file: <qrcode_2.eps>
 (epstopdf)                    date: 2015-08-13 23:55:35
 (epstopdf)                    size: 160051 bytes
@@ -1282,53 +1282,53 @@ Package epstopdf Info: Source file: <qrcode_2.eps>
 (epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <epstopdf --outfile=qrcode_2-eps-converted-to.p
 df qrcode_2.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<qrcode_2-eps-converted-to.pdf, id=9, 180.675pt x 182.6825pt>
+<qrcode_2-eps-converted-to.pdf, id=10, 180.675pt x 182.6825pt>
 File: qrcode_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use qrcode_2-eps-converted-to.pdf>
-Package pdftex.def Info: qrcode_2-eps-converted-to.pdf used on input line 184.
+Package pdftex.def Info: qrcode_2-eps-converted-to.pdf used on input line 187.
 (pdftex.def)             Requested size: 114.54755pt x 115.82089pt.
 
-Overfull \hbox (6.27028pt too wide) in paragraph at lines 174--187
+Overfull \hbox (6.27028pt too wide) in paragraph at lines 177--190
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--187
+Underfull \hbox (badness 10000) in paragraph at lines 177--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--187
+Underfull \hbox (badness 10000) in paragraph at lines 177--190
  [] 
  []
 
 
-Underfull \vbox (badness 2393) has occurred while \output is active []
+Underfull \vbox (badness 2707) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 191.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 194.
 LaTeX Font Info:    Font shape `OT1/bch/bx/sc' in size <24.88> not available
-(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 191.
+(Font)              Font shape `OT1/bch/b/sc' tried instead on input line 194.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 195.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 198.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <8> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 242.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 245.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Vicky Katara/Des
 ktop/MS/Resume/New Resume - One Page/qrcode_2-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
 
 ("C:\Users\Vicky Katara\Desktop\MS\Resume\New Resume - One Page\vicky1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `vicky1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
  21972 strings out of 493921
@@ -1343,9 +1343,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vicky1.pdf (1 page, 91505 bytes).
+Output written on vicky1.pdf (1 page, 91739 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
