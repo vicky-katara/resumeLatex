@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  31 MAR 2024 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  31 MAR 2024 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,26 +1239,26 @@ Package epstopdf Info: Source file: <qrcode_2.eps>
 (epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <repstopdf --outfile=qrcode_2-eps-converted-to.
 pdf qrcode_2.eps>
-(epstopdf)             \includegraphics on input line 191.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 <qrcode_2-eps-converted-to.pdf, id=10, 180.675pt x 182.6825pt>
 File: qrcode_2-eps-converted-to.pdf Graphic file (type pdf)
 <use qrcode_2-eps-converted-to.pdf>
-Package pdftex.def Info: qrcode_2-eps-converted-to.pdf  used on input line 191.
+Package pdftex.def Info: qrcode_2-eps-converted-to.pdf  used on input line 192.
 
 (pdftex.def)             Requested size: 114.54755pt x 115.82089pt.
 
-Overfull \hbox (6.27028pt too wide) in paragraph at lines 181--194
+Overfull \hbox (6.27028pt too wide) in paragraph at lines 182--195
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--194
+Underfull \hbox (badness 10000) in paragraph at lines 182--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--194
+Underfull \hbox (badness 10000) in paragraph at lines 182--195
  [] 
  []
 
@@ -1266,13 +1266,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--194
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (2.60863pt too wide) in paragraph at lines 239--263
+Overfull \hbox (2.60863pt too wide) in paragraph at lines 240--264
 \OT1/bch/m/n/10 Participated and eventually lead the Amazon WishList team's mig
 ration off of the Gurupa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--263
+Underfull \hbox (badness 10000) in paragraph at lines 240--264
 
  []
 
@@ -1302,7 +1302,7 @@ Here is how much of TeX's memory you used:
 r/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Vicky_Katara-Resume-Mar2024.pdf (1 page, 95357 bytes).
+Output written on Vicky_Katara-Resume-Mar2024.pdf (1 page, 95384 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
