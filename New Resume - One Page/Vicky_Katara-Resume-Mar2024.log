@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  31 MAR 2024 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.6)  8 NOV 2024 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,10 +1232,10 @@ Overfull \hbox (6.27028pt too wide) in paragraph at lines 150--153
  []
 
 Package epstopdf Info: Source file: <qrcode_2.eps>
-(epstopdf)                    date: 2024-03-14 00:07:54
+(epstopdf)                    date: 2024-11-06 02:44:13
 (epstopdf)                    size: 160051 bytes
 (epstopdf)             Output file: <qrcode_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-03-14 00:07:54
+(epstopdf)                    date: 2024-11-06 02:44:13
 (epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <repstopdf --outfile=qrcode_2-eps-converted-to.
 pdf qrcode_2.eps>
